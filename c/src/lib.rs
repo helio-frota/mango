@@ -14,7 +14,7 @@ impl MangoContext {
         println!("mango {}", mango);
         Self {
             mango,
-            mem_limit_mb: 500.0,
+            mem_limit_mb: 1.0,
         }
     }
 }
@@ -34,3 +34,4 @@ impl AsyncTestContext for MangoContext {
         PEAK_ALLOC.reset_peak_usage();
     }
 }
+
