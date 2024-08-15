@@ -1,0 +1,10 @@
+[package]
+name = "a"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[dependencies]
+b = { workspace = true }
+

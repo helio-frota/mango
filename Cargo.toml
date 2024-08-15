@@ -1,0 +1,21 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "a",
+    "b",
+    "c",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "Apache-2.0"
+
+
+[workspace.dependencies]
+peak_alloc = "0.2.0"
+test-context = "0.3"
+b = { path = "b" }
+c = { path = "c" }

@@ -1,0 +1,10 @@
+[package]
+name = "c"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[dependencies]
+peak_alloc = { workspace = true }
+test-context = { workspace = true }
